@@ -1,37 +1,146 @@
-
 /* universal css property start */
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
+.fira-sans-font {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+body {
+    width: 1280px;
+    margin: 0 160px;
+    background-color: #F5F5F5;
+  }
 /* universal css property end */
 
 /* common css start */
-
+  .section-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e0e0e;
+  }
+  .description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0e;
+    opacity: 70%;
+    line-height: 24px;
+  }
 /* common css end */
 
 /* header part start */
 
 /* nav section start */
+nav {
+  margin: 31px 0 51px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e0e0e;
+}
+.nav-btn {
+  width: 116px;
+  height: 52px;
+  /* padding: 15px 30px; */
+  border: 1px solid #006a50;
+  border-radius: 8px;
+  color: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+}
 /* nav section end */
 
-
 /* hero section start */
-/* hero section end */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  gap: 64px;
+  height: 560px;
+}
+.hero-content {
+  margin: 117px 0 117px 60px;
+  width: 622px;
+  height: 326px;
+}
+.hero-text {
+  width: 622px;
+  height: 246px;
+  margin-bottom: 24px;
+}
+.hero-sub-title {
+  color: #0e0e0e;
+  font-size: 24px;
+  font-weight: 500;
+}
+.hero-title {
+  color: #0e0e0e;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: auto;
+}
+.hero-btn {
+  width: 270px;
+  height: 56px;
+  /* padding: 17px 34px; */
+  border: 1px solid #006a50;
+  border-radius: 8px;
+  color: #ffff;
+  background-color: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hero-bg-image {
+  width: 474px;
+  height: 400px;
+  margin: 80px 60px 80px 0;
+}
 
+/* hero section end */
 /*  header part end */
 
-
-
-
 /* main part start */
-
+/* pillar section start  */
+.pillar{
+    margin: 80px 0;
+    height: 324px;
+}
+.pillar-card{
+   display: flex;
+   gap: 24px;
+}
+.pillar-card-main{
+    width: 302px;
+    height: 244px;
+    background-color: #ffff;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.pillar-card-img{
+    width: 64px;
+    height: 64px;
+    margin: 24px 0 0 24px;
+}
+.pillar-card-text{
+    margin: 24px;
+}
+.pillar-card-text-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e0e0e;
+    opacity: 80%;
+    margin-bottom: 12px;
+    
+}
+/* pillar section end */
 /* main part end */
-
-
-
 
 /* footer part start */
 
